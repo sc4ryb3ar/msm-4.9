@@ -74,6 +74,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.spectral_bin_discard = 0,
 		.vht160_mcs_rx_highest = 0,
 		.vht160_mcs_tx_highest = 0,
+		.n_cipher_suites = 8,
 	},
 	{
 		.id = QCA9887_HW_1_0_VERSION,
@@ -97,6 +98,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.spectral_bin_discard = 0,
 		.vht160_mcs_rx_highest = 0,
 		.vht160_mcs_tx_highest = 0,
+		.n_cipher_suites = 8,
 	},
 	{
 		.id = QCA6174_HW_2_1_VERSION,
@@ -119,6 +121,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.spectral_bin_discard = 0,
 		.vht160_mcs_rx_highest = 0,
 		.vht160_mcs_tx_highest = 0,
+		.n_cipher_suites = 8,
 	},
 	{
 		.id = QCA6174_HW_2_1_VERSION,
@@ -141,6 +144,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.spectral_bin_discard = 0,
 		.vht160_mcs_rx_highest = 0,
 		.vht160_mcs_tx_highest = 0,
+		.n_cipher_suites = 8,
 	},
 	{
 		.id = QCA6174_HW_3_0_VERSION,
@@ -163,6 +167,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.spectral_bin_discard = 0,
 		.vht160_mcs_rx_highest = 0,
 		.vht160_mcs_tx_highest = 0,
+		.n_cipher_suites = 8,
 	},
 	{
 		.id = QCA6174_HW_3_2_VERSION,
@@ -188,6 +193,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.spectral_bin_discard = 0,
 		.vht160_mcs_rx_highest = 0,
 		.vht160_mcs_tx_highest = 0,
+		.n_cipher_suites = 8,
 	},
 	{
 		.id = QCA99X0_HW_2_0_DEV_VERSION,
@@ -303,6 +309,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.spectral_bin_discard = 0,
 		.vht160_mcs_rx_highest = 0,
 		.vht160_mcs_tx_highest = 0,
+		.n_cipher_suites = 8,
 	},
 	{
 		.id = QCA9377_HW_1_1_DEV_VERSION,
@@ -327,6 +334,7 @@ static const struct ath10k_hw_params ath10k_hw_params_list[] = {
 		.spectral_bin_discard = 0,
 		.vht160_mcs_rx_highest = 0,
 		.vht160_mcs_tx_highest = 0,
+		.n_cipher_suites = 8,
 	},
 	{
 		.id = QCA4019_HW_1_0_DEV_VERSION,
